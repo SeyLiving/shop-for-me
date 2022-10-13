@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-// import Image from 'next/image';
 import {
   AiOutlineHome,
   AiOutlineLogin,
   AiOutlineInfoCircle,
-  // AiOutlineClose,
-  // AiOutlineMail,
   AiOutlineMenu,
 } from 'react-icons/ai';
 import { RiContactsLine } from 'react-icons/ri';
-// import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsCart4 } from 'react-icons/bs';
 
 const Navbar = () => {

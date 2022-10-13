@@ -25,7 +25,6 @@ const Layout = ({ title }) => {
         </main>
 
         <footer>
-          {/* <Footer /> */}
           <Foot />
         </footer>
       </div>

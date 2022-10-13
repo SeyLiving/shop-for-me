@@ -1,9 +1,5 @@
 import Image from "next/image";
-// import Link from 'next/link';
 import React from "react";
-// import { BsTwitter } from 'react-icons/bs';
-// import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-// import Footer from '../components/Footer';
 import Navbar from "./components/Navbar";
 import Foot from "./components/Foot";
 
@@ -34,93 +30,7 @@ const About = () => {
             </p>
           </div>
         </section>
-
-        {/* <div className="flex flex-col md:flex-row justify-center ">
-          <div className="shadow-xl rounded-md border-5 bg-slate-500 h-[30rem] w-[25rem] m-10 p-8">
-            <div className="rounded-full bg-red-500 w-40 h-40 mx-auto overflow-hidden">
-              <Image
-                src="/assets/shopforme1.jpg"
-                alt="me"
-                width="150px"
-                height="150px"
-                layout="responsive"
-                objectFit="cover"
-                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              />
-            </div>
-            <div className="">
-              <p className="text-yellow-500/75 flex justify-center mt-5 py-3 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                owusu victor
-              </p>
-
-              <p className="text-yellow-500/75 flex justify-center mt-5 py-3 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                059-588-1014
-              </p>
-              <div className="flex justify-center gap-5 p-3 mt-[4rem]  px-5 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </a>
-                </Link>
-
-                <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </a>
-                </Link>
-
-                <Link href="">
-                  <a className="shadow-lg hover:text shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsTwitter />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="shadow-xl border-5 rounded-md bg-slate-500 h-[30rem] w-[25rem] m-10 p-8">
-            <div className="rounded-full bg-red-500 w-40 h-40 mx-auto overflow-hidden">
-              <Image
-                src="/assets/shopforme1.jpg"
-                alt="me"
-                width="150px"
-                height="150px"
-                layout="responsive"
-                objectFit="cover"
-                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-              />
-            </div>
-
-            <div className="">
-              <p className="text-yellow-500/75 flex justify-center mt-5 py-3 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                owusu victor
-              </p>
-
-              <p className="text-yellow-500/75 flex justify-center mt-5 py-3 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                059-588-1014
-              </p>
-              <div className="flex justify-center gap-5 mt-[4rem] py-3 px-5 tracking-widest uppercase text-2xl shadow-lg rounded-md font-semibold">
-                <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </a>
-                </Link>
-
-                <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </a>
-                </Link>
-
-                <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsTwitter />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
+        
         <div className="">
           <h1 className="flex justify-center tracking-widest text-2xl uppercase py-2 px-5 font-bold text-blue-900">
             Developers
