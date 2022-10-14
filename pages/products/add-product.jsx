@@ -147,7 +147,7 @@ const AddProduct = () => {
             )}
           </div>
           <div>
-            <button className="border py-2 px-4 rounded w-full font-bold mt-5">
+            <button type="submit" className="border py-2 px-4 rounded w-full font-bold mt-5">
               Submit List
             </button>
           </div>

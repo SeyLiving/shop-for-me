@@ -2,7 +2,7 @@ import React from "react";
 import { getProducts } from "../../utils/getProducts";
 import Link from "next/link";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const posts = await getProducts();
 
   return {
